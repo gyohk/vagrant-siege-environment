@@ -1,0 +1,22 @@
+DEPENDENCIES
+  hostnames
+  hostsfile
+  iptables
+  logrotate
+  selinux
+  sudo
+  user
+  yum
+
+GRAPH
+  compat_resource (12.7.1)
+  hostnames (0.3.6)
+    hostsfile (>= 0.0.0)
+  hostsfile (2.4.5)
+  iptables (2.1.1)
+    compat_resource (>= 0.0.0)
+  logrotate (1.9.2)
+  selinux (0.9.0)
+  sudo (2.9.0)
+  user (0.4.2)
+  yum (3.10.0)

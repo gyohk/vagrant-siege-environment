@@ -1,0 +1,16 @@
+{
+  "name": "initial",
+  "chef_type": "role",
+  "json_class": "Chef::Role",
+  "run_list":[
+    "recipe[selinux::disabled]",
+    "recipe[localedef]",
+    "recipe[bind-utils]",
+    "recipe[mailx]",
+    "recipe[psacct]",
+    "recipe[profile]",
+    "recipe[perllib]"
+  ],
+  "default_attributes": {
+  }
+}

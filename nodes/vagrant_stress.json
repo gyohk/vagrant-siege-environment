@@ -1,0 +1,8 @@
+{
+	"environment": "local",
+	"set_fqdn": "192.168.33.234",
+	"run_list":[
+		"role[initial]"
+		
+	]
+}
